@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Fukurou",
+  "description": "🦉 Fukurou is notepad browser extension.",
+  "version": "1.0.0",
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-32.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/index.html"
+  }
+}
