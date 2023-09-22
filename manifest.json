@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Fukurou",
-  "description": "🦉 Fukurou is notepad browser extension.",
-  "version": "1.0.0",
+  "description": "🦉 Fukurou is simple and lightweight notepad browser extension that overrides the new page.",
+  "version": "1.0.1",
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "icons": {
     "16": "images/icon-16.png",
