@@ -1,7 +1,7 @@
 # `Fukurou` (:us:)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/kauefraga/fukurou)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/kauefraga/fukurou)
+![GitHub Repo stars](https://img.shields.io/github/stars/kauefraga/fukurou?color=green)
 ![GitHub all releases](https://img.shields.io/github/downloads/kauefraga/fukurou/total)
 ![GitHub's license](https://img.shields.io/github/license/kauefraga/fukurou)
 
@@ -10,11 +10,15 @@
 ### Features
 
 - [x] A digital clock.
+  - [x] Render hours and minutes.
+  - [x] Render a greeting message.
 - [ ] A simple notepad (it will be markdown-based, probably)
   - [ ] Create a note, delete a note, navigate through notes
   - [ ] Multiple notes
   - [ ] Save as...
   - [ ] Keyboard navigation
+- [ ] Custom CSS
+- [ ] I18n (currently, i will keep this extension only in Brazilian Portuguese)
 
 ## 🖼 Showcase
 
