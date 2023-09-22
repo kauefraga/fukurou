@@ -20,10 +20,14 @@ function renderHello() {
 
 function renderHoursAndMinutes() {
   const date = new Date();
+
   const hours = date.getHours();
   const minutes = date.getMinutes();
 
-  clock.innerText = `${hours}:${minutes}`;
+  const fixedHours = hours < 10 ? `0${hours}` : hours;
+  const fixedMinutes = minutes < 10 ? `0${minutes}` : minutes;
+
+  clock.innerText = `${fixedHours}:${fixedMinutes}`;
 }
 
 renderHoursAndMinutes();
