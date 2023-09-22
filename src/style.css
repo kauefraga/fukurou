@@ -14,9 +14,14 @@
 body {
   height: 100vh;
 
+  scroll-behavior: smooth;
   background-color: var(--bg-color);
   color: var(--main-color);
   font-family: 'Inter', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #greetings {
@@ -34,4 +39,103 @@ body {
 
 #greetings > #hello {
   font-size: 2rem;
+}
+
+#greetings > #arrow-down {
+  color: var(--main-color);
+}
+
+#notepad {
+  display: flex;
+  height: 100%;
+}
+
+#notepad > nav {
+  padding: 2rem;
+  border-right: 1px solid var(--main-color);
+}
+
+#notepad > nav > a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#notepad > nav > ul {
+  list-style: none;
+}
+
+#notepad > nav > ul > li {
+  color: white;
+}
+
+#notepad > nav > p {
+  color: white;
+}
+
+#notepad > nav > p > a {
+  color: white;
+  text-decoration: none;
+}
+
+#notepad > #note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+  margin: 1.5rem auto;
+  width: 50rem;
+}
+
+#notepad > #note > #title {
+  width: 100%;
+  border: none;
+
+  background-color: transparent;
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+#notepad > #note > #title:focus {
+  outline: none;
+}
+
+#notepad > #note > #text {
+  width: 100%;
+  height: 30rem;
+  resize: none;
+
+  border: none;
+  background-color: transparent;
+  color: var(--main-color);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+#notepad > #note > #text:focus {
+  outline: none;
+}
+
+#notepad > #note > #save {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: white;
+  font-size: 1rem;
+}
+
+#notepad > #note > #save:hover {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.separator {
+  width: 100%;
+  border-top: 1px solid var(--main-color);
+  margin: 2rem 0;
 }

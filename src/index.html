@@ -11,7 +11,38 @@
   <div id='greetings'>
     <h1 id='clock'></h1>
     <p id='hello'></p>
+
+    <a id='arrow-down' href='#notepad'>
+      <svg xmlns='https://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24'><path fill='currentColor' d='m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4l-6 6Z'/></svg>
+    </a>
   </div>
+
+  <main id='notepad'>
+    <nav>
+      <a id='logo' href='https://github.com/kauefraga/fukurou'>Fukurou</a>
+
+      <div class='separator'></div>
+
+      <ul id='notes'>
+      </ul>
+
+      <div class='separator'></div>
+
+      <p>Feito com 💙 por <a href='https://kauefraga.tech'>Kauê Fraga Rodrigues</a></p>
+    </nav>
+
+    <section id='note'>
+      <input type='text' name='title' id='title' placeholder='Nota sem título' />
+
+      <div class='separator'></div>
+
+      <textarea id='text' name='text' placeholder='Seu texto vai aqui...'></textarea>
+
+      <div class='separator'></div>
+
+      <button id='save' type='button'>Salvar</button>
+    </section>
+  </main>
 
   <script src='./scripts/clock.js'></script>
 </body>
