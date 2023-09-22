@@ -10,10 +10,11 @@
 ### Features
 
 - [x] A digital clock.
-  - [x] Render hours and minutes.
-  - [x] Render a greeting message.
+  - [x] Renders hours and minutes.
+  - [x] Renders a greeting message.
 - [ ] A simple notepad (it will be markdown-based, probably)
-  - [ ] Create a note, delete a note, navigate through notes
+  - [ ] Navigation through notes
+  - [ ] Creates a note, deletes a note...
   - [ ] Multiple notes
   - [ ] Save as...
   - [ ] Keyboard navigation
