@@ -12,10 +12,10 @@
 - [x] A digital clock.
   - [x] Renders hours and minutes.
   - [x] Renders a greeting message.
-- [ ] A simple notepad (it will be markdown-based, probably)
+- [ ] A simple notepad
   - [ ] Navigation through notes
-  - [ ] Creates a note, deletes a note...
   - [ ] Multiple notes
+  - [ ] Creates a note, deletes a note...
   - [ ] Save as...
   - [ ] Keyboard navigation
 - [ ] Custom CSS
@@ -26,6 +26,12 @@
 Below you can see the first release (1.0.0):
 
 ![First release of Fukurou](images/first-release.png)
+
+Some screenshots of the day 22/09/2023:
+
+![A screenshot of the clock part on the day 22/09/2023](images/clock-22-09-2023.png)
+
+![A screenshot of the notepad part on the day 22/09/2023](images/notepad-22-09-2023.png)
 
 ## ⬇ How to install
 
