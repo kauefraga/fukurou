@@ -2,7 +2,7 @@
 
 :root {
   --bg-color: rgb(22, 22, 22);
-  --gray: rgb(64, 64, 64);
+  --gray: rgb(68, 68, 68);
   --main-color: rgb(117, 255, 230);
 }
 
@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
 }
 
 #greetings > #arrow-down {
-  color: var(--main-color);
+  color: var(--gray);
 }
 
 #notepad {
@@ -80,6 +80,7 @@ body::-webkit-scrollbar {
 
 #notepad > nav > p {
   color: white;
+  font-size: 0.75rem;
 }
 
 #notepad > nav > p > a {
