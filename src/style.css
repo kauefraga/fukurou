@@ -2,6 +2,7 @@
 
 :root {
   --bg-color: rgb(22, 22, 22);
+  --gray: rgb(64, 64, 64);
   --main-color: rgb(117, 255, 230);
 }
 
@@ -51,8 +52,12 @@ body::-webkit-scrollbar {
 }
 
 #notepad > nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem;
-  border-right: 1px solid var(--main-color);
+  width: 25rem;
+  border-right: 1px solid var(--gray);
 }
 
 #notepad > nav > a {
@@ -62,12 +67,15 @@ body::-webkit-scrollbar {
   font-weight: bold;
 }
 
-#notepad > nav > ul {
-  list-style: none;
+#notepad > nav > ol {
+  text-align: center;
 }
 
-#notepad > nav > ul > li {
+#notepad > nav > ol > li {
+  max-width: 12rem;
+  flex-wrap: wrap;
   color: white;
+  font-size: 1rem;
 }
 
 #notepad > nav > p {
@@ -76,6 +84,7 @@ body::-webkit-scrollbar {
 
 #notepad > nav > p > a {
   color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -95,8 +104,9 @@ body::-webkit-scrollbar {
 
   background-color: transparent;
   color: var(--main-color);
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-family: Times, serif;
 }
 
 #notepad > #note > #title:focus {
@@ -136,6 +146,6 @@ body::-webkit-scrollbar {
 
 .separator {
   width: 100%;
-  border-top: 1px solid var(--main-color);
+  border-top: 1px solid var(--gray);
   margin: 2rem 0;
 }
