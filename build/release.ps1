@@ -8,4 +8,4 @@ Write-Host Building $manifest.name $manifest.version ...
 7z a -tzip 'Fukurou.zip' 'manifest.json' 'LICENSE' 'src'
 
 # Add images excluding readme ones
-7z u 'Fukurou.zip' -xr'!images/tutorial-1.png' -xr'!images/first-release.png' 'images'
+7z u 'Fukurou.zip' -xr'!images/docs' 'images'
