@@ -13,10 +13,14 @@
   - [x] Renders hours and minutes.
   - [x] Renders a greeting message.
 - [ ] A simple notepad
-  - [ ] Navigation through notes
+  - [ ] Has title, text and created at.
+  - [ ] Save (local storage)
+  - [ ] Delete (local storage)
+  - [ ] Download
+- [ ] A better notepad
+  - [ ] Navigate through notes
   - [ ] Multiple notes
-  - [ ] Creates a note, deletes a note...
-  - [ ] Save as...
+  - [ ] Create a note, delete a note...
   - [ ] Keyboard navigation
 - [ ] Custom CSS
 - [ ] I18n (currently, i will keep this extension only in Brazilian Portuguese)
@@ -50,7 +54,11 @@ A list of content and technologies that i read and applied to create this projec
 - HTML, CSS and Javascript - The Best Mates.
 - [Chrome manifest summary](https://developer.chrome.com/docs/extensions/mv3/manifest).
 - [Inter font](https://fonts.google.com/specimen/Inter) - A simple font without serifs.
-- [Icons 8](https://icons8.com.br).
+- [Merriweather font](https://fonts.google.com/specimen/Merriweather) - Another simple font but with serifs.
+- [Icônes](https://icones.js.org) - Icon explorer, powered by Iconify.
+  - Arrow down icon: `material-symbols:keyboard-arrow-down`
+  - Download icon: `carbon:download`
+  - Owl icon: `fluent-emoji-high-contrast:owl`
 - [Shields Badges](https://shields.io/badges) - "Shields.io is a service for concise, consistent, and legible badges, which can easily be included in GitHub readmes or any other web page."
 - [Proof of Concept | Fukurou (:brazil:)](https://github.com/kauefraga/poc-fukurou) - A prototype of the Fukurou extension.
 
