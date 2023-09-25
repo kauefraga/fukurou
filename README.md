@@ -12,11 +12,11 @@
 - [x] A digital clock.
   - [x] Renders hours and minutes.
   - [x] Renders a greeting message.
-- [ ] A simple notepad
-  - [ ] Has title, text and created at.
-  - [ ] Save (local storage)
-  - [ ] Delete (local storage)
-  - [ ] Download
+- [x] A simple notepad
+  - [x] Has title, text and created at.
+  - [x] Save (local storage)
+  - [x] Delete (local storage)
+  - [x] Download
 - [ ] A better notepad
   - [ ] Navigate through notes
   - [ ] Multiple notes
@@ -27,15 +27,26 @@
 
 ## 🖼 Showcase
 
-Below you can see the first release (1.0.0):
+> Latest to the oldest.
 
-![First release of Fukurou](images/first-release.png)
+Below you can see the latest release (1.1.0):
 
-Some screenshots of the day 22/09/2023:
+![A screenshot of the clock part on the day 25/09/2023](images/clock-25-09-2023.png)
 
-![A screenshot of the clock part on the day 22/09/2023](images/clock-22-09-2023.png)
+![A screenshot of the notepad part on the day 25/09/2023](images/notepad-25-09-2023.png)
 
-![A screenshot of the notepad part on the day 22/09/2023](images/notepad-22-09-2023.png)
+<details>
+<summary>Some screenshots of the day 22/09/2023</summary>
+  <br />
+  <img src='./images/clock-22-09-2023.png' alt='A screenshot of the clock part on the day 22/09/2023' />
+  <img src='./images/notepad-22-09-2023.png' alt='A screenshot of the notepad part on the day 22/09/2023' />
+</details>
+
+<details>
+<summary>First release (1.0.0)</summary>
+  <br />
+  <img src='./images/first-release.png' />
+</details>
 
 ## ⬇ How to install
 
