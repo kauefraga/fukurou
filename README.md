@@ -31,21 +31,21 @@
 
 Below you can see the latest release (1.1.0):
 
-![A screenshot of the clock part on the day 25/09/2023](images/clock-25-09-2023.png)
+![A screenshot of the clock part on the day 25/09/2023](images/docs/clock-25-09-2023.png)
 
-![A screenshot of the notepad part on the day 25/09/2023](images/notepad-25-09-2023.png)
+![A screenshot of the notepad part on the day 25/09/2023](images/docs/notepad-25-09-2023.png)
 
 <details>
 <summary>Some screenshots of the day 22/09/2023</summary>
   <br />
-  <img src='./images/clock-22-09-2023.png' alt='A screenshot of the clock part on the day 22/09/2023' />
-  <img src='./images/notepad-22-09-2023.png' alt='A screenshot of the notepad part on the day 22/09/2023' />
+  <img src='./images/docs/clock-22-09-2023.png' alt='A screenshot of the clock part on the day 22/09/2023' />
+  <img src='./images/docs/notepad-22-09-2023.png' alt='A screenshot of the notepad part on the day 22/09/2023' />
 </details>
 
 <details>
 <summary>First release (1.0.0)</summary>
   <br />
-  <img src='./images/first-release.png' />
+  <img src='./images/docs/first-release.png' />
 </details>
 
 ## ⬇ How to install
@@ -56,7 +56,7 @@ Below you can see the latest release (1.1.0):
 4. Click on the `Load unpacked` and select the folder where you have installed the Fukurou extension
 5. Open a new tab, and done! 🎉
 
-![The installation tutorial (steps: 3 and 4)](images/tutorial-1.png)
+![The installation tutorial (steps: 3 and 4)](images/docs/tutorial-1.png)
 
 ## 🧻 Resources and inspirations
 
